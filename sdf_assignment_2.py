@@ -44,8 +44,56 @@ print(f"Pre-tax value: ${vehicle:,.2f} Provincial Tax: ${pst_cost:,.2f} Federal 
 
 #LISTS
 
+#Declaring and confirming list datatype
+pumpkin_spice = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(type(pumpkin_spice))
+
+# adding name into list
+pumpkin_spice.insert(6, "Gavin")
+print(pumpkin_spice)
+
+pumpkin_spice.pop(9)
+print(pumpkin_spice)
+
+chai_tea = ["A", "B", "C"]
+london_fog = pumpkin_spice + chai_tea
+print(london_fog)
+
+
 #TUPLES
+
+provinces = ("Manitoba", "Ontario", "Alberta", "QUebec")
+print(type(provinces))
+print(provinces)
 
 #DICTIONARIES
 
+currency = {'nickle': 0.05, 'dime': 0.10, 'Quarter': 0.25, 'Loonie': 100, 'Toonie': 200}
+print(type(currency))
+print(currency)
+
+currency["nickle"] = 5
+currency["dime"] = 10
+currency["Quarter"] = 25
+print(currency)
+
 #SETS
+
+multiples_of_two = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}
+print(type(multiples_of_two))
+print(multiples_of_two)
+
+multiples_of_five = {5, 10, 15, 20}
+print(multiples_of_five)
+
+unique_values = multiples_of_two.union(multiples_of_five)
+print(unique_values)
+
+shared_values = multiples_of_five.intersection(multiples_of_two)
+print(shared_values)
+
+only_in_multiples_of_two = multiples_of_two.difference(multiples_of_five)
+print(only_in_multiples_of_two)
+
+only_in_multiples_of_five = multiples_of_five.difference(multiples_of_two)
+print(only_in_multiples_of_five)
