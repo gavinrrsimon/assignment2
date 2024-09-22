@@ -2,7 +2,7 @@
 
 ## Description
 
-Learning to use python.
+Learning to use python. Displaying the use of simple data types, calculations, and declaring and using collection types.
 
 ## Author
 

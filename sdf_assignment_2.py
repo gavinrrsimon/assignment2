@@ -24,15 +24,15 @@ print("next year:", current_year, "type:", type(current_year))
 #CALCULATIONS
 
 
-# Declaring variabels
+# Declaring variables
 GST = 0.05
 PST = 0.07
 vehicle = 70645.80
 
 # Tax calculations
-gst_cost = vehicle*GST
-pst_cost = vehicle*PST
-final_cost = vehicle+pst_cost+gst_cost
+gst_cost = vehicle * GST
+pst_cost = vehicle * PST
+final_cost = vehicle + pst_cost + gst_cost
 
 #printing results. Second print uses f string format it better.
 # : after variable to format
@@ -68,7 +68,7 @@ print(provinces)
 
 #DICTIONARIES
 
-currency = {'nickle': 0.05, 'dime': 0.10, 'Quarter': 0.25, 'Loonie': 100, 'Toonie': 200}
+currency = {'Nickle': 0.05, 'Dime': 0.10, 'Quarter': 0.25, 'Loonie': 100, 'Toonie': 200}
 print(type(currency))
 print(currency)
 
